@@ -28,5 +28,6 @@ class School
     roster.each do |grade,name|
       roster[grade].sort
     end
+    return roster
   end
 end
