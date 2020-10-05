@@ -18,15 +18,10 @@ class School
     else
       roster[grade] = [name]
     end
-    puts roster
   end
 
   def grade(g)
-    roster.each do |grade,name|
-      if (grade == g)
-        puts name
-      end
-    end
+    puts roster[g]
   end
 
 end
