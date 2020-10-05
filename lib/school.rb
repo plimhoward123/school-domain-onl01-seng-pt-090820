@@ -13,7 +13,9 @@ class School
   end
 
   def add_student(name,grade)
-    if (!roster.key?(grade))
+    if (roster.key?(grade))
+      roster[grade] << [name]
+    else
       roster[grade] = [name]
     end
     puts roster
