@@ -1,5 +1,5 @@
 class School
-  roster = { }
+  roster = Hash.new
 
   def initialize(school)
     @domain = school
