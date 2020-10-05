@@ -21,4 +21,12 @@ class School
     puts roster
   end
 
+  def grade(g)
+    roster.each do |grade,name|
+      if (grade == g)
+        puts name
+      end
+    end
+  end
+
 end
