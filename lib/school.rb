@@ -3,7 +3,6 @@ class School
 
   def initialize(school)
     @domain = school
-    roster = nil
   end
 
 end
