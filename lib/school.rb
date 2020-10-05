@@ -1,5 +1,5 @@
 class School
-  roster []
+  
   def initialize(school)
     @domain = school
     @roster = Hash.new
@@ -13,6 +13,9 @@ class School
   end
 
   def add_student(name,grade)
+    if roster.length < 0 
+      roster[grade] = name
+    end
     roster[grade] << name
     roster.each do |g|
       if (g == grade)
