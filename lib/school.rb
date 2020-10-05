@@ -21,7 +21,11 @@ class School
   end
 
   def grade(g)
-    puts roster[:g]
+    roster.map do |grade,name|
+      if (grade == g)
+        puts name
+      end
+    end
   end
 
 end
