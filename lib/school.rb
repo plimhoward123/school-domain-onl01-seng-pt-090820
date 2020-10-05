@@ -13,9 +13,7 @@ class School
   end
 
   def add_student(name,grade)
-    if roster.length < 0
-      roster[grade] = []
-    end
+    roster[grade] = []
     roster[grade] << name
     roster.each do |g|
       if (g == grade)
