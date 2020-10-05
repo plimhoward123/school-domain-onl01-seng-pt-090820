@@ -26,7 +26,7 @@ class School
 
   def sort()
     roster.each do |key,value|
-      roster[key].sort.to_h
+      roster[key].sort
     end
     return roster
   end
