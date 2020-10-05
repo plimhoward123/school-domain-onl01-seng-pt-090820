@@ -25,7 +25,7 @@ class School
   end
 
   def sort()
-    puts roster
-    return roster.sort_by { |key,value| value}
+    tmprry = roster.sort
+    return tmprry
   end
 end
