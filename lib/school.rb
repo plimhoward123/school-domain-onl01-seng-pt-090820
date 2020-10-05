@@ -25,6 +25,6 @@ class School
   end
 
   def sort()
-    return roster.sort
+    return roster.sort.to_h
   end
 end
