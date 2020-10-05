@@ -4,12 +4,12 @@ class School
     @domain = school
     @roster = Hash.new
   end
-  
+
   def roster=()
     @roster = {}
   end
   def roster
     @roster
   end
-  
+
 end
