@@ -25,6 +25,6 @@ class School
   end
 
   def sort()
-    return roster[grade].sort
+    return roster.sort_by { |key,value| value <=> value}
   end
 end
