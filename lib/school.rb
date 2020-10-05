@@ -1,5 +1,5 @@
 class School
-  
+
   def initialize(school)
     @domain = school
     @roster = Hash.new
@@ -13,7 +13,7 @@ class School
   end
 
   def add_student(name,grade)
-    if roster.length < 0 
+    if roster.length < 0
       roster[grade] = name
     end
     roster[grade] << name
