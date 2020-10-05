@@ -25,7 +25,7 @@ class School
   end
 
   def sort()
-    tmprry = roster.sort.to_h
+    tmprry = roster.value.sort.to_h
     return tmprry
   end
 end
