@@ -25,6 +25,6 @@ class School
   end
 
   def sort()
-    return roster.sort_by {|key,value| key[:value.to_sym]}
+    return roster.sort_by {|key,value| key[:value.to_i]}
   end
 end
