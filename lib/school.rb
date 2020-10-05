@@ -12,10 +12,8 @@ class School
     @roster
   end
 
-  def add_student(info)
-    info.each do |grade,name|
-      roster[grade] << name
-    end
+  def add_student(name,grade)
+    roster[grade] = name
     puts roster
   end
 
