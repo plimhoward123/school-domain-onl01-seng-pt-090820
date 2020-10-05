@@ -21,6 +21,7 @@ class School
   end
 
   def grade(g)
+    return roster[g]
     roster.map do |grade,name|
       if (grade == g)
         puts name
