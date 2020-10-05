@@ -1,8 +1,8 @@
 class School
-  attr_acessor = :roster
-
+  roster = { }
   def initialize(school)
     @domain = school
+    roster.clear
   end
 
 end
