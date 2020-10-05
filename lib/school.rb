@@ -22,5 +22,5 @@ class School
 
   def grade(g)
     return roster[g]
-
+  end
 end
